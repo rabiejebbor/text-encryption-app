@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(53, 53, 53);
+}
+.container {
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  width: fit-content;
+  min-height: 40vh;
+  background-color: rgb(255, 187, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+button {
+  border: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+
+  background-color: red;
+  color: antiquewhite;
+  border-radius: 0.5rem;
+  transition: 200ms;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+
+  transition: 200ms;
+}
+label {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  font-weight: 1000;
+  color: rgb(0, 0, 0);
+  background-color: rgba(170, 170, 170, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+input {
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+}
+div {
+  align-items: center;
+  justify-content: center;
+}
+.incOutput {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50vh;
+}
+p {
+  font-size: 1rem;
+}
+#decrKey {
+  margin-left: 0.5rem;
+}
